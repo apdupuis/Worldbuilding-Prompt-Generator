@@ -173,7 +173,7 @@ void ofApp::setup(){
 	tt.setLineHeight(20);
 	tt.setLetterSpacing(1.005);
 	
-	source.load("C:/Users/alexa/OneDrive/Documents/Mine/WorldbuildingGames/Subjects.csv");
+	source.load("Subjects.csv");
 	for (int i = 1; i < source.size(); i++) {
 		ofxCsvRow current_row = source.getRow(i);
 		int num_cols = current_row.getNumCols();
